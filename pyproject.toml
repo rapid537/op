@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "opPrint"
-version = "0.0.1"
+version = "0.0.3"
 authors = [
   { name="rapid537", email="rapid537@zoho.com" },
 ]

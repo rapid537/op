@@ -2,7 +2,7 @@ import pprint
 import yaml
 
 
-def op(text_or_var, var=None, format=False, yml=False):  # pragma: no cover
+def op(text_or_var, var=None, format=False, yml=False):
     """
     short-hand override print() formatter
 
