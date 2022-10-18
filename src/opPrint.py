@@ -15,8 +15,8 @@ def op(label_or_var, var=None, format=False, yml=False):
     try:
         if var and format:
             if yml:
-                return print(f'\n{label_or_var}\r', yaml.dump(var))
-            return print(f'\n{label_or_var}\r', pprint.pformat(var))
+                return print(f'\n{label_or_var}\n', yaml.dump(var))
+            return print(f'\n{label_or_var}\n', pprint.pformat(var))
         if not var and format:
             if yml:
                 return print('\n', yaml.dump(label_or_var))

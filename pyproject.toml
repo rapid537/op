@@ -1,25 +1,25 @@
 [build-system]
-requires = [
-    "setuptools>=61.0",
-    "wheel>=0.37.1",
-    "PyYAML>=6.0",
-]
-build-backend = "setuptools.build_meta"
+requires = ["poetry-core~=1.0"]
+build-backend = "poetry.core.masonry.api"
 
-[project]
+[tool.poetry]
 name = "opPrint"
-version = "0.0.4"
+version = "1.0.1"
 authors = [
-  { name="rapid537", email="rapid537@zoho.com" },
+  "rapid537 <rapid537@zoho.com>",
 ]
 description = "Override print formatter"
 readme = "README.md"
-requires-python = ">=3.7"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+homepage = "https://github.com/rapid537/op.git"
+packages = [
+    { include = "opPrint.py", from = "src"}
+]
 
-[project.urls]
-"Homepage" = "https://github.com/rapid537/op.git"
+[tool.poetry.dependencies]
+python = "^3.6"
+PyYAML = "^6.0"
