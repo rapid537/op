@@ -17,7 +17,7 @@ classifiers = [
 ]
 homepage = "https://github.com/rapid537/op.git"
 packages = [
-    { include = "opPrint.py", from = "src"}
+    { include = "opPrint.py", from = "src" }
 ]
 
 [tool.poetry.dependencies]
