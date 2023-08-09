@@ -3,8 +3,8 @@ requires = ["poetry-core~=1.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "opPrint"
-version = "1.0.2"
+name = "opprint"
+version = "1.0.3"
 authors = [
   "rapid537 <rapid537@zoho.com>",
 ]
@@ -17,7 +17,7 @@ classifiers = [
 ]
 homepage = "https://github.com/rapid537/op.git"
 packages = [
-    { include = "opPrint.py", from = "src" }
+    { include = "opprint.py", from = "src" }
 ]
 
 [tool.poetry.dependencies]

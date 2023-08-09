@@ -25,5 +25,5 @@ def op(label_or_var, var=None, format=False, yml=False):
             return print(f'\n{label_or_var}\n', var, '\n')
         return print('\n', label_or_var, '\n')
     except Exception as error:
-        print('\nopPrint internal error...')
+        print('\nopprint internal error...')
         print(error, '\n')

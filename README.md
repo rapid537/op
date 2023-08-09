@@ -6,7 +6,7 @@ python3 -m pip install opprint
 ## usage ##
 op(***arg***, ***var***=None, ***format***=False, ***yml***=False)
 ```
-from opPrint import op
+from opprint import op
 greeting = 'hello world!'
 
 # basic
